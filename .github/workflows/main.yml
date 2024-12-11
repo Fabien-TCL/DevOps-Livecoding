@@ -69,4 +69,3 @@ jobs:
          tags:  ${{secrets.DOCKERHUB_USERNAME}}/tp-devops-http-server:latest
          # build on feature branches, push only on main branch
          push: ${{ github.ref == 'refs/heads/main' }}
-  
